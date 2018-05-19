@@ -1,16 +1,19 @@
 <template>
-  <div id="app">
-    <router-view/>
+  <div>
+    ddddddddd
   </div>
 </template>
 
 <script>
 export default {
-  name: 'App',
-  mounted () {
+  name: '',
+  data () {
+    return {
+    }
   }
 }
 </script>
 
-<style>
+<style scoped>
+
 </style>
