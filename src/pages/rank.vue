@@ -1,12 +1,12 @@
 <template>
   <div>
-    ddddddddd
+    rank
   </div>
 </template>
 
 <script>
 export default {
-  name: '',
+  name: 'rank',
   data () {
     return {
     }

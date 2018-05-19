@@ -6,9 +6,19 @@ Vue.use(Router)
 export default new Router({
   routes: [
     {
-      path: '/',
-      name: 'index',
-      component: resolve => require(['../pages/index.vue'], resolve)
+      path: '/newSong',
+      name: 'newSong',
+      component: resolve => require(['../pages/newSong.vue'], resolve)
+    },
+    {
+      path: '/rank',
+      name: 'rank',
+      component: resolve => require(['../pages/rank.vue'], resolve)
+    },
+    {
+      path: '/search',
+      name: 'search',
+      component: resolve => require(['../pages/search.vue'], resolve)
     }
   ]
 })
